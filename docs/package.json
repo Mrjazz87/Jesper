@@ -1,0 +1,21 @@
+{
+  "name": "about_me",
+  "version": "1.0.0",
+  "description": "Responsive About Me Website",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "keywords": [
+    "About",
+    "Me",
+    "Jesper",
+    "Jonsson"
+  ],
+  "author": "Jesper Jonsson",
+  "license": "MIT",
+  "dependencies": {
+    "gh-pages": "^1.2.0",
+    "node-sass": "^4.9.2"
+  }
+}
